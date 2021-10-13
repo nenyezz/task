@@ -1,0 +1,363 @@
+.navBar {
+    background: rgb(25, 25, 187);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.navBar p {
+    font-weight: bold;
+}
+
+.navBar span {
+    font-size: 20px;
+}
+
+.navSearch {
+    height: 30px;
+    width: 430px;
+    background-color: rgb(147, 147, 196);
+    border-style: none;
+    color: #fff;
+    background-image: url(./images/search.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.legend {
+    border-width: 0.5px;
+}
+
+.buttonR {
+    color: white;
+    background-color: rgb(25, 25, 187);
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    padding: 10px 10px;
+}
+
+.buttonB {
+    color: white;
+    background-color: rgb(125, 233, 139);
+    border-style: none;
+    padding: 10px 10px;
+}
+
+.body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 240, 243);
+    padding: 0 100px;
+}
+
+.arrow {
+    padding-top: 10px;
+    height: 15px;
+    width: 20px;
+}
+
+.heading {
+    display: flex;
+    padding:  10px 40px;
+    background-color: rgb(243, 240, 243);
+}
+
+.headingg {
+    padding: 0 40px;
+}
+
+.headingOne {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.paragraphOne {
+    font-size: 15px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+}
+  
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+ }
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 16px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #2196F3;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+  
+.slider {
+    border-radius: 34px;
+}
+  
+.slider:before {
+    border-radius: 50%;
+}
+
+.serviceOne {
+    height: 200px;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.buttonOne {
+    display: inline-block;
+    justify-content: space-evenly;
+    height: 70px;
+    width: 200px;
+    margin: 20px;
+    font-size: 15px;
+    text-align: inherit;
+    overflow: hidden;
+    background-color: #fff;
+    color: darkgrey;
+    border-color: darkgrey;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.buttonOneI {
+    display: inline-block;
+    justify-content: space-evenly;
+    height: 70px;
+    width: 200px;
+    margin: 20px;
+    font-size: 15px;
+    background-color: rgb(25, 25, 187);
+    color: rgb(255, 255, 255);
+    text-align: inherit;
+    border-color: darkgrey;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.buttonOne:hover {
+    background-color: rgb(25, 25, 187);
+    color: #fff;
+}
+
+.airplane {
+    height: 55px;
+    width: 55px;
+    position: relative;
+    margin-top: 2px;
+    margin-left: 140px;
+}
+
+.boat {
+    height: 55px;
+    width: 55px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.truck {
+    height: 55px;
+    width: 55px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+
+.police {
+    height: 55px;
+    width: 55px;
+    position: relative;
+    margin-left: 150px;
+}
+
+.serviceTwo {
+    margin: 30px 0;
+    background-color: white;
+}
+
+.buttonTwo {
+    width: 320px;
+    padding: 10px 10px;
+    margin: 40px;
+    font-size: 15px;
+    background-image: url(./images/placeholder.png);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 25px;
+    border-width: 1px;
+    background-color: rgb(243, 240, 243);
+    border-color: rgb(243, 240, 243);
+}
+
+.buttonTwoI {
+    width: 320px;
+    padding: 10px 10px;
+    margin: 40px;
+    font-size: 15px;
+    background-color: rgb(243, 240, 243);
+    background-image: url(./images/placeholder.png);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 25px;
+    border-width: 1px;
+    border-color: rgb(243, 240, 243);
+}
+
+.buttonTwoII {
+    padding: 10px 10px;
+    margin: 40px;
+    font-size: 15px;
+    background-image: url(./images/calendar-silhouette.png);
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 25px;
+    border-width: 1px;
+    background-color: rgb(243, 240, 243);
+    border-color: rgb(243, 240, 243);
+}
+
+.buttonTwoIII {
+    padding: 10px 10px;
+    margin: 40px;
+    font-size: 15px;
+    background-color: rgb(243, 240, 243);
+    border-color: rgb(243, 240, 243);
+    border-width: 1px;
+}
+
+.buttonTwoIIII {
+    padding: 10px 10px;
+    margin: 40px;
+    font-size: 15px;
+    background-color: rgb(243, 240, 243);
+    border-color: rgb(243, 240, 243);
+    border-width: 1px;
+}
+
+.import {
+    width: 80px;
+    height: 30px;
+}
+
+.export {
+    width: 80px;
+    height: 30px;
+}
+
+
+.serviceThree {
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: white;
+
+}
+
+.Cargo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.field {
+    display: flex;
+}
+
+.fieldset {
+    width: 200px;
+    margin: 20px;
+}
+
+.serviceThree .button {
+    padding: 10px 10px;
+    height: 70px;
+    width: 200px;
+    margin: 20px;
+    font-size: 15px;
+}
+
+
+.serviceFour {
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: white;
+}
+
+.serviceFour ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+}
+
+.Switchh {
+    padding: 30px 0;
+}
+
+.Add {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .navBar {
+        display: block;
+    }
+    .navSearch{
+        width: 200px;
+    }
+    .serviceOne {
+        display: block;
+        height: inherit;
+    }
+    .serviceThree{
+        display: block;
+    }
+    .field{
+        display: block;
+    }
+    .serviceFour ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
